@@ -147,10 +147,4 @@ Wind:  P = ½ × ρ × A × Cp × v³
 
 ## Team
 
-**Team GreenMatrix** — Dhaval Thakkar
-
-Built for the AI for Bharat Hackathon — addressing renewable energy forecasting for KREDL/KSPDCL, Karnataka.
-
-## License
-
-This project was built as a hackathon submission. All rights reserved.
+**GreenMatrix** — Dhaval Thakkar
