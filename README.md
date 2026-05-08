@@ -26,22 +26,9 @@ An edge-to-insight system that forecasts solar and wind power output 1-24 hours 
 ```
 codebase/
 ├── solar_node/
-│   ├── firmware/solar_node.ino    # Main solar node firmware (ESP32)
-│   └── tests/                     # Individual sensor test sketches
-│       ├── 01_i2c_scan/
-│       ├── 02_bh1750/             # Light/GHI sensor
-│       ├── 03_dht22/              # Temp/humidity (replaced by BME280)
-│       ├── 04_acs712/             # Current sensor
-│       ├── 05_oled/               # OLED display
-│       ├── 07_laser_soiling/      # Laser+LDR soiling detection
-│       ├── 08_solar_panel/        # Solar panel output
-│       └── ...
+│   ├── firmware/solar_node.ino    # Solar node firmware (ESP32)
 ├── wind_node/
-│   ├── firmware/wind_node.ino     # Main wind node firmware (ESP32)
-│   └── tests/                     # Individual sensor test sketches
-│       ├── 01_pot_test/           # Potentiometer (anemometer sim)
-│       ├── 02_wind_vane/          # Direction sensor
-│       └── ...
+│   ├── firmware/wind_node.ino     # Wind node firmware (ESP32)
 ├── raspberry_pi/
 │   ├── data_collector.py          # MQTT subscriber → SQLite
 │   ├── api_server.py              # Flask REST API
